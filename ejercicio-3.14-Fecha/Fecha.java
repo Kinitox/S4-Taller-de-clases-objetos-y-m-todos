@@ -33,5 +33,10 @@ public class Fecha {
     public int obtenerAnio() {
         return anio;
     }
+
+    public void mostrarFecha() {
+        System.out.println(mes + "/" + dia + "/" + anio);
+    }
+
 }
 //Gabitoo use la sintaxis en español porque aun estoy aprendiendo y asi se me hace primer mas facil en los get/set

@@ -27,8 +27,10 @@ public class Empleado {
     }
 
     public void establecerSalarioMensual(double salarioMensual) {
-        // pendiente: validar que el salario sea positivo (paso 3)
-        this.salarioMensual = salarioMensual;
+        // ya valide con esto
+        if (salarioMensual > 0) {
+            this.salarioMensual = salarioMensual;
+        }
     }
 
     public double obtenerSalarioMensual() {

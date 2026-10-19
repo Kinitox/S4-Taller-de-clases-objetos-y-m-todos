@@ -39,4 +39,3 @@ public class Fecha {
     }
 
 }
-//Gabitoo use la sintaxis en español porque aun estoy aprendiendo y asi se me hace primer mas facil en los get/set
